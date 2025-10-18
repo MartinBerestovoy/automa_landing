@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>AUTOMA - Tu negocio, en piloto automático.</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#3b82f6",
+                        "primary-gold": "#FCD34D", // Less intense yellow
+                        "light-blue-card": "#1E293B", // Light blue for hero card
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#0d1117",
+                        "card-dark": "#161b22",
+                        "border-dark": "#30363d",
+                    },
+                    fontFamily: {
+                        display: ["Inter"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.25rem",
+                        lg: "0.5rem",
+                        xl: "0.75rem",
+                        full: "9999px",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+        }
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(calc(-100% - 1rem));
+            }
+        }
+        .animate-scroll {
+            animation: scroll 60s linear infinite;
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] .faq-answer {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="font-display bg-background-dark text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-border-dark bg-background-dark/80 px-4 py-3 backdrop-blur-sm sm:px-6 lg:px-10">
+<div class="flex items-center gap-3 lg:flex-1">
+<svg class="h-8 w-8 text-primary-gold" fill="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.85 19.95C27.5167 17.6167 27.5167 14.3833 25.85 12.05" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+<path d="M6.15002 19.95C4.48335 17.6167 4.48335 14.3833 6.15002 12.05" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+<path d="M19.95 6.15002C17.6167 4.48335 14.3833 4.48335 12.05 6.15002" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+<path d="M12.5 21L16 11L19.5 21M13.5 18H18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+<path d="M19.95 25.85C17.6167 27.5167 14.3833 27.5167 12.05 25.85" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+</svg>
+</div>
+<div class="absolute left-1/2 -translate-x-1/2">
+<h2 class="text-2xl font-bold tracking-tighter text-primary-gold">AUTOMA</h2>
+</div>
+<nav class="hidden items-center gap-8 lg:flex">
+</nav>
+<div class="flex items-center gap-4 lg:flex-1 justify-end">
+<a class="hidden h-10 items-center justify-center overflow-hidden rounded-lg bg-primary-gold px-4 text-sm font-bold text-black transition-transform hover:scale-105 sm:flex" href="https://wa.me/5491154683595" target="_blank">
+<span class="truncate">Solicitá tu demo</span>
+</a>
+<button class="lg:hidden">
+<span class="material-symbols-outlined"> menu </span>
+</button>
+</div>
+</header>
+<main class="flex flex-1 flex-col items-center py-8 sm:py-12 md:py-16">
+<div class="w-full max-w-6xl px-4 sm:px-6">
+<section class="mb-12 md:mb-16">
+<div class="relative min-h-[480px] w-full overflow-hidden rounded-xl bg-light-blue-card border border-blue-400/20">
+<div class="absolute inset-0 bg-cover bg-center opacity-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBSwOYz4uwWQv8swCVNCLi-4-NlpQwlBlYqyX9tstnhetErXbTf5xm7-W8P953CtD7rte2SWlJu1UhFNnaozDx7TLcZvOb32jfgQsfpmpOboSfKUftb3QvOvuOJM2TmTNyp11o0v1u0uVHN5IrJPhv2oREPFbsRl4DbBSvWJXtYV3hqjY9He56PS8PR2WRd5HX8CugEcGbGazUb6E4mrLn3hOhVTQlBF2XD7pk2usvIIq4gDEEV3iRkACEbk6eIHeWNAfHjlcolFfQ");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+<div class="relative z-10 flex h-full flex-col items-start justify-end p-6 text-left sm:p-8 md:p-12">
+<div class="flex flex-col gap-4 text-white">
+<h1 class="text-4xl font-extrabold tracking-tighter md:text-5xl lg:text-6xl">Automatizá tu negocio hoy.<br/>Vendé mientras dormís.</h1>
+<p class="max-w-2xl text-base font-normal sm:text-lg">Dejá de perder tiempo con tareas repetitivas. Automa conecta tus apps y ejecuta procesos en segundo plano para que te enfoques en hacer crecer tu negocio.</p>
+</div>
+<div class="mt-8 flex flex-col items-start">
+<a class="flex h-12 items-center justify-center rounded-lg bg-primary-gold px-6 text-base font-bold text-black transition-transform hover:scale-105" href="https://wa.me/5491154683595" target="_blank">
+<span class="truncate">SOLICITÁ TU DEMO GRATIS HOY</span>
+</a>
+<p class="mt-4 max-w-sm text-xs text-white/70">Sin complejidades ni conocimientos técnicos. Acompañamiento y soporte constante.</p>
+</div>
+</div>
+</div>
+</section>
+<div class="w-full flex justify-center my-8"><hr class="w-2/3 border-border-dark"/></div>
+<section class="mb-12 text-center md:mb-16">
+<h2 class="mb-8 text-3xl font-bold tracking-tight text-white">Más de 50 empresas crecen con nosotros. ¡No te quedes atrás!</h2>
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-xl bg-card-dark border border-border-dark p-6 transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="text-4xl font-bold text-primary-gold">+10</p>
+<p class="mt-2 text-sm text-white/80">horas ahorradas por semana en promedio</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-6 transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="text-4xl font-bold text-primary-gold">+3X</p>
+<p class="mt-2 text-sm text-white/80">más respuestas a clientes en menos de 24 h</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-6 transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="text-4xl font-bold text-primary-gold">+500</p>
+<p class="mt-2 text-sm text-white/80">procesos automatizados por usuarios</p>
+</div>
+</div>
+</section>
+<div class="w-full flex justify-center my-8"><hr class="w-2/3 border-border-dark"/></div>
+<section class="mb-12 md:mb-16">
+<h2 class="mb-8 text-center text-3xl font-bold tracking-tight text-white">Casos de Éxito</h2>
+<div class="relative w-full overflow-hidden">
+<div class="flex flex-col gap-4">
+<div class="flex animate-scroll">
+<div class="flex w-max space-x-4">
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Elena Rodriguez</p><p class="text-xs text-white/60">E-commerce de Moda</p> <p class="mt-2 text-sm text-white/60">"Automa es un antes y un después. La gestión de pedidos y el seguimiento son automáticos. Mis ventas crecieron un 40%."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Javier Morales</p><p class="text-xs text-white/60">Agencia de Marketing</p> <p class="mt-2 text-sm text-white/60">"Liberamos horas de trabajo administrativo. Ahora el equipo se enfoca en la estrategia y creatividad para clientes."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Sofia Gomez</p><p class="text-xs text-white/60">Consultora Financiera</p> <p class="mt-2 text-sm text-white/60">"La automatización de informes nos ahorra días de trabajo al mes. Precisión y tiempo récord, increíble."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Carlos Vega</p><p class="text-xs text-white/60">Startup Tecnológica</p> <p class="mt-2 text-sm text-white/60">"El onboarding de nuevos usuarios es fluido y automático. La experiencia del cliente mejoró notablemente."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Lucia Torres</p><p class="text-xs text-white/60">Estudio de Diseño</p> <p class="mt-2 text-sm text-white/60">"Desde la cotización hasta la entrega, todo está automatizado. Me permite enfocarme 100% en diseñar."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Martin CastroInmobiliaria</p> <p class="mt-2 text-sm text-white/60">"La clasificación y seguimiento de leads es automática. Cerramos más propiedades en menos tiempo."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Valentina Ruiz</p><p class="text-xs text-white/60">Servicios de Catering</p> <p class="mt-2 text-sm text-white/60">"La coordinación de eventos y la comunicación con proveedores está sincronizada. Cero errores."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Diego Alonso</p><p class="text-xs text-white/60">Gimnasio Boutique</p> <p class="mt-2 text-sm text-white/60">"Gestionamos reservas, pagos y recordatorios sin intervención manual. Nuestros miembros están felices."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Gabriela Flores</p><p class="text-xs text-white/60">Tienda de Mascotas</p> <p class="mt-2 text-sm text-white/60">"El control de stock y los pedidos a proveedores son automáticos. Nunca nos quedamos sin productos."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Andrés Diaz</p><p class="text-xs text-white/60">Fotógrafo Profesional</p> <p class="mt-2 text-sm text-white/60">"La entrega de galerías a clientes y la facturación es instantánea. Me ahorra un día de trabajo a la semana."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Elena Rodriguez</p><p class="text-xs text-white/60">E-commerce de Moda</p> <p class="mt-2 text-sm text-white/60">"Automa es un antes y un después. La gestión de pedidos y el seguimiento son automáticos. Mis ventas crecieron un 40%."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Javier Morales</p><p class="text-xs text-white/60">Agencia de Marketing</p> <p class="mt-2 text-sm text-white/60">"Liberamos horas de trabajo administrativo. Ahora el equipo se enfoca en la estrategia y creatividad para clientes."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Sofia Gomez</p><p class="text-xs text-white/60">Consultora Financiera</p> <p class="mt-2 text-sm text-white/60">"La automatización de informes nos ahorra días de trabajo al mes. Precisión y tiempo récord, increíble."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Carlos Vega</p><p class="text-xs text-white/60">Startup Tecnológica</p> <p class="mt-2 text-sm text-white/60">"El onboarding de nuevos usuarios es fluido y automático. La experiencia del cliente mejoró notablemente."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Lucia TorresEstudio de Diseño</p> <p class="mt-2 text-sm text-white/60">"Desde la cotización hasta la entrega, todo está automatizado. Me permite enfocarme 100% en diseñar."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Martin Castro</p><p class="text-xs text-white/60">Inmobiliaria</p> <p class="mt-2 text-sm text-white/60">"La clasificación y seguimiento de leads es automática. Cerramos más propiedades en menos tiempo."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Valentina Ruiz</p><p class="text-xs text-white/60">Servicios de Catering</p> <p class="mt-2 text-sm text-white/60">"La coordinación de eventos y la comunicación con proveedores está sincronizada. Cero errores."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Diego Alonso</p><p class="text-xs text-white/60">Gimnasio Boutique</p> <p class="mt-2 text-sm text-white/60">"Gestionamos reservas, pagos y recordatorios sin intervención manual. Nuestros miembros están felices."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Gabriela Flores</p><p class="text-xs text-white/60">Tienda de Mascotas</p> <p class="mt-2 text-sm text-white/60">"El control de stock y los pedidos a proveedores son automáticos. Nunca nos quedamos sin productos."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Andrés DiazFotógrafo Profesional</p> <p class="mt-2 text-sm text-white/60">"La entrega de galerías a clientes y la facturación es instantánea. Me ahorra un día de trabajo a la semana."</p> </div>
+</div>
+</div>
+<div class="flex animate-scroll" style="animation-delay: -30s; animation-direction: reverse;">
+<div class="flex w-max space-x-4">
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Mariana Soto</p><p class="text-xs text-white/60">Clínica Dental</p> <p class="mt-2 text-sm text-white/60">"La confirmación de citas y recordatorios automáticos redujeron las ausencias en un 50%. Gestión impecable."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Ricardo Núñez</p><p class="text-xs text-white/60">Empresa de Logística</p> <p class="mt-2 text-sm text-white/60">"Optimizamos las rutas y el seguimiento de envíos. La eficiencia operativa ha mejorado un 30%."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Paula Herrera</p><p class="text-xs text-white/60">Academia Online</p> <p class="mt-2 text-sm text-white/60">"El proceso de inscripción y acceso a cursos es totalmente automático. Podemos escalar sin límites."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Francisco Medina</p><p class="text-xs text-white/60">Restaurante</p> <p class="mt-2 text-sm text-white/60">"Las reservas online y la gestión de mesas están automatizadas. El salón siempre está optimizado."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Daniela Silva</p><p class="text-xs text-white/60">Productora de Eventos</p> <p class="mt-2 text-sm text-white/60">"La venta de entradas y la comunicación con asistentes es simple y efectiva. Eventos exitosos sin estrés."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Jorge Paredes</p><p class="text-xs text-white/60">Taller Mecánico</p> <p class="mt-2 text-sm text-white/60">"Desde el diagnóstico hasta la entrega, el cliente recibe actualizaciones automáticas. Transparencia total."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Camila Vargas</p><p class="text-xs text-white/60">Estudio Jurídico</p> <p class="mt-2 text-sm text-white/60">"La gestión de documentos y el seguimiento de casos son automáticos. Más tiempo para asesorar a clientes."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Roberto Benitez</p><p class="text-xs text-white/60">Consultora de RRHH</p> <p class="mt-2 text-sm text-white/60">"El filtrado de CVs y la programación de entrevistas es automático. Encontramos talento más rápido."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Isabella Mendoza</p><p class="text-xs text-white/60">Agencia de Viajes</p> <p class="mt-2 text-sm text-white/60">"Cotizaciones, reservas y pagos automatizados. Creamos experiencias inolvidables sin fricciones."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Miguel Ángel Ríos</p><p class="text-xs text-white/60">Productor Musical</p> <p class="mt-2 text-sm text-white/60">"La distribución de música y el reporte de regalías son automáticos. Me dedico solo a crear."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Mariana Soto</p><p class="text-xs text-white/60">Clínica Dental</p> <p class="mt-2 text-sm text-white/60">"La confirmación de citas y recordatorios automáticos redujeron las ausencias en un 50%. Gestión impecable."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Ricardo Núñez</p><p class="text-xs text-white/60">Empresa de Logística</p> <p class="mt-2 text-sm text-white/60">"Optimizamos las rutas y el seguimiento de envíos. La eficiencia operativa ha mejorado un 30%."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Paula HerreraAcademia Online</p> <p class="mt-2 text-sm text-white/60">"El proceso de inscripción y acceso a cursos es totalmente automático. Podemos escalar sin límites."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Francisco Medina</p><p class="text-xs text-white/60">Restaurante</p> <p class="mt-2 text-sm text-white/60">"Las reservas online y la gestión de mesas están automatizadas. El salón siempre está optimizado."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Daniela Silva</p><p class="text-xs text-white/60">Productora de Eventos</p> <p class="mt-2 text-sm text-white/60">"La venta de entradas y la comunicación con asistentes es simple y efectiva. Eventos exitosos sin estrés."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Jorge ParedesTaller Mecánico</p> <p class="mt-2 text-sm text-white/60">"Desde el diagnóstico hasta la entrega, el cliente recibe actualizaciones automáticas. Transparencia total."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Camila Vargas</p><p class="text-xs text-white/60">Estudio Jurídico</p> <p class="mt-2 text-sm text-white/60">"La gestión de documentos y el seguimiento de casos son automáticos. Más tiempo para asesorar a clientes."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Roberto Benitez</p><p class="text-xs text-white/60">Consultora de RRHH</p> <p class="mt-2 text-sm text-white/60">"El filtrado de CVs y la programación de entrevistas es automático. Encontramos talento más rápido."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Isabella MendozaAgencia de Viajes</p> <p class="mt-2 text-sm text-white/60">"Cotizaciones, reservas y pagos automatizados. Creamos experiencias inolvidables sin fricciones."</p> </div>
+<div class="w-[300px] flex-shrink-0 rounded-xl bg-card-dark border border-border-dark p-6"> <p class="font-bold text-white">Miguel Ángel Ríos</p><p class="text-xs text-white/60">Productor Musical</p> <p class="mt-2 text-sm text-white/60">"La distribución de música y el reporte de regalías son automáticos. Me dedico solo a crear."</p> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="w-full flex justify-center my-8"><hr class="w-2/3 border-border-dark"/></div>
+<section class="mb-12 rounded-xl bg-primary-gold/10 border border-primary-gold/20 p-8 text-center md:mb-16 md:p-12">
+<h2 class="text-3xl font-bold tracking-tight text-white">¿Por qué automatizar con Automa?</h2>
+<p class="mx-auto mt-4 max-w-3xl text-base text-white/80">Los emprendedores pierden un tiempo valioso en tareas manuales y repetitivas. Automa automatiza tus procesos sin código ni complicaciones, para que puedas enfocarte en lo que realmente importa: hacer crecer tu negocio.</p>
+<a class="mt-8 inline-flex h-12 items-center justify-center rounded-lg bg-primary-gold px-6 text-base font-bold text-black transition-transform hover:scale-105" href="https://wa.me/5491154683595" target="_blank">
+<span class="truncate">PROBÁ AUTOMA GRATIS HOY</span>
+</a>
+</section>
+<div class="w-full flex justify-center my-8"><hr class="w-2/3 border-border-dark"/></div>
+<section class="mb-12 md:mb-16">
+<h2 class="mb-8 text-center text-3xl font-bold tracking-tight text-white">Resultados que podés alcanzar</h2>
+<div class="grid grid-cols-3 gap-4 sm:grid-cols-3 lg:grid-cols-3">
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Automatizá tus procesos</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Duplicá tus resultados</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Escalá sin contratar</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Reducí errores manuales</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Mejorá la experiencia</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Ahorrá tiempo valioso</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Optimizá tus recursos</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Tomá mejores decisiones</p>
+</div>
+<div class="rounded-xl bg-card-dark border border-border-dark p-4 text-center transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<p class="font-medium text-white">Trabajá menos, ganá más</p>
+</div>
+</div>
+</section>
+<div class="w-full flex justify-center my-8"><hr class="w-2/3 border-border-dark"/></div>
+<section class="mb-12 md:mb-16">
+<h2 class="mb-12 text-center text-3xl font-bold tracking-tight text-white">Cómo funciona</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+<div class="flex flex-col items-center p-6 rounded-xl bg-card-dark border border-border-dark transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary-gold/20 mb-4">
+<span class="text-3xl text-primary-gold font-bold">1</span>
+</div>
+<h3 class="text-lg font-bold text-white mb-2">Contanos qué querés automatizar</h3>
+<p class="text-sm text-white/60">Analizamos tus procesos para identificar las mejores oportunidades de automatización.</p>
+</div>
+<div class="flex flex-col items-center p-6 rounded-xl bg-card-dark border border-border-dark transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary-gold/20 mb-4">
+<span class="text-3xl text-primary-gold font-bold">2</span>
+</div>
+<h3 class="text-lg font-bold text-white mb-2">Conectamos tus herramientas</h3>
+<p class="text-sm text-white/60">Integramos las apps que ya usás para crear flujos de trabajo automatizados y eficientes.</p>
+</div>
+<div class="flex flex-col items-center p-6 rounded-xl bg-card-dark border border-border-dark transition-all duration-300 hover:border-primary-gold/50 hover:shadow-2xl hover:shadow-primary-gold/10">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary-gold/20 mb-4">
+<span class="text-3xl text-primary-gold font-bold">3</span>
+</div>
+<h3 class="text-lg font-bold text-white mb-2">Tu negocio empieza a operar solo</h3>
+<p class="text-sm text-white/60">Activamos las automatizaciones y monitoreamos su rendimiento para asegurar resultados óptimos.</p>
+</div>
+</div>
+</section>
+<div class="w-full flex justify-center my-8"><hr class="w-2/3 border-border-dark"/></div>
+<section class="mb-12 md:mb-16">
+<h2 class="mb-8 text-center text-3xl font-bold tracking-tight text-white">Preguntas que se frecuentan</h2>
+<div class="mx-auto max-w-3xl space-y-4">
+<details class="group rounded-xl border border-border-dark bg-card-dark p-4 transition-all duration-300 hover:border-primary-gold/50">
+<summary class="flex cursor-pointer list-none items-center justify-between font-medium text-white">
+                                    ¿Cuánto tiempo tardo en ver resultados?
+                                    <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180"> expand_more </span>
+</summary>
+<div class="overflow-hidden">
+<p class="faq-answer mt-4 text-sm text-white/60">Con Automa, podés ver resultados desde el primer día. La automatización se implementa en horas, no semanas, y empieza a generar valor de inmediato.</p>
+</div>
+</details>
+<details class="group rounded-xl border border-border-dark bg-card-dark p-4 transition-all duration-300 hover:border-primary-gold/50">
+<summary class="flex cursor-pointer list-none items-center justify-between font-medium text-white">
+                                    ¿Necesito saber de tecnología para usar Automa?
+                                    <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180"> expand_more </span>
+</summary>
+<div class="overflow-hidden">
+<p class="faq-answer mt-4 text-sm text-white/60">No, en absoluto. Nuestro equipo se encarga de toda la configuración técnica. Vos solo nos contás qué necesitás automatizar y nosotros lo hacemos realidad.</p>
+</div>
+</details>
+<details class="group rounded-xl border border-border-dark bg-card-dark p-4 transition-all duration-300 hover:border-primary-gold/50">
+<summary class="flex cursor-pointer list-none items-center justify-between font-medium text-white">
+                                    ¿Puedo probarlo gratis y sin compromiso?
+                                    <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180"> expand_more </span>
+</summary>
+<div class="overflow-hidden">
+<p class="faq-answer mt-4 text-sm text-white/60">¡Claro! Ofrecemos una demo gratuita para que puedas ver el potencial de Automa en tu propio negocio, sin ningún tipo de compromiso.</p>
+</div>
+</details>
+<details class="group rounded-xl border border-border-dark bg-card-dark p-4 transition-all duration-300 hover:border-primary-gold/50">
+<summary class="flex cursor-pointer list-none items-center justify-between font-medium text-white">
+                                    ¿Qué pasa si algo se rompe o necesito ayuda?
+                                    <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180"> expand_more </span>
+</summary>
+<div class="overflow-hidden">
+<p class="faq-answer mt-4 text-sm text-white/60">Contás con soporte continuo. Si algo no funciona como esperabas o necesitás hacer ajustes, nuestro equipo está disponible para ayudarte de inmediato.</p>
+</div>
+</details>
+<details class="group rounded-xl border border-border-dark bg-card-dark p-4 transition-all duration-300 hover:border-primary-gold/50">
+<summary class="flex cursor-pointer list-none items-center justify-between font-medium text-white">
+                                    ¿Por qué debería automatizar hoy y no mañana?
+                                    <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180"> expand_more </span>
+</summary>
+<div class="overflow-hidden">
+<p class="faq-answer mt-4 text-sm text-white/60">Cada día que pasás haciendo tareas manuales es un día de crecimiento perdido. Automatizar hoy significa empezar a ahorrar tiempo, reducir errores y escalar tu negocio desde mañana.</p>
+</div>
+</details>
+</div>
+</section>
+<div class="w-full flex justify-center my-8"><hr class="w-2/3 border-border-dark"/></div>
+<section class="rounded-xl bg-primary/10 border border-primary/20 p-8 text-center md:p-16">
+<h1 class="text-4xl font-extrabold tracking-tighter text-white md:text-5xl">Hoy puede ser el último día que trabajes de más.</h1>
+<p class="mx-auto mt-4 max-w-3xl text-base text-white/80">Automa automatiza tus procesos en horas — no semanas — y te muestra resultados desde el primer día. Sin código, sin curva de aprendizaje, sin riesgo.</p>
+<a class="mt-8 inline-flex h-12 items-center justify-center rounded-lg bg-primary-gold px-6 text-base font-bold text-black transition-transform hover:scale-105" href="https://wa.me/5491154683595" target="_blank">
+<span class="truncate">PROBÁ AUTOMA GRATIS HOY</span>
+</a>
+</section>
+</div>
+</main>
+<footer class="w-full border-t border-border-dark bg-background-dark">
+<div class="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6">
+<div class="flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
+<div class="flex-1">
+<p class="text-sm text-white"><span class="font-bold">AUTOMA</span><br/>Tu negocio, en piloto automático.</p>
+</div>
+<div class="flex flex-1 flex-col items-center gap-4 md:items-end">
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm md:justify-end">
+<a class="text-white/60 transition-colors hover:text-primary-gold" href="https://wa.me/5491154683595" target="_blank">WhatsApp</a>
+<a class="text-white/60 transition-colors hover:text-primary-gold" href="mailto:automa.agencia@gmail.com">Email</a>
+<a class="text-white/60 transition-colors hover:text-primary-gold" href="https://instagram.com/automa.ag" target="_blank">Instagram</a>
+</div>
+<p class="text-xs text-white/60">© 2025 Automa. Todos los derechos reservados.</p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
